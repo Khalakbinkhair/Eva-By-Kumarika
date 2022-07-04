@@ -1,0 +1,193 @@
+  fieldset {
+    
+    border-top: none !important;
+    border-left:none !important;
+    border-right:none !important;
+    /*border-bottom: 1px groove #ddd !important;*/
+    padding: 0 10px 10px 10px !important;
+
+  }
+.form-check-input {
+    margin-left: .25rem;
+    margin-top: 0.5rem;
+}
+.check-box label{
+  padding-left: 1.5rem;
+  color: #B32744;
+  font-size: 1.2rem;
+}
+.check-box fieldset{
+  padding-top: 10px !important;
+}
+.alert-success-polar{
+    background: linear-gradient(to right,#fff,#fff,#fff) !important;
+}
+.btn-primary{
+  background-color: transparent !important;
+  border-color:  #000 !important; 
+}
+  .submit-Btn{
+    background: linear-gradient(to right,#B32744,#B32744,#B32744) !important;
+    border: #000;
+  }
+  .main-header, .navbar-nav, .nav-item{
+    background: linear-gradient(to right,#fff,#fff,#fff) !important;
+    border: #fff;
+  }
+  .show .dropdown-menu, .show .dropdown-menu a:hover{
+    background: linear-gradient(to right,#fff ,#fff ,#fff ) !important;
+  }
+  .content-wrapper {
+     background: #000 !important; 
+  }
+/*  input{
+    border: none !important;
+    background: none !important;
+  }*/
+  .field{
+    background: linear-gradient(to right,#000,#000,#000) !important;
+    /*background: #191316;*/
+    /* box-shadow: inset -8px -8px 8px #f7f7fa, inset 8px 8px 8px #e3ebec; */
+    border-radius: .5rem;
+    padding: 0.25rem;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .submit-btn{
+    padding: 1rem;
+  }
+  .table-bordered {
+    border: 1px solid #000 !important;
+}
+.table thead th {
+    border-bottom: 2px solid #000 !important;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #000 !important;
+}
+textarea:focus,
+
+option:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: none;
+  box-shadow: none;
+  outline: 0 none;
+}
+
+legend{
+  color: #000;
+}
+h2{
+  color: #000;
+  font-weight: 700;
+}
+select{
+      background: #fff !important;
+}
+.btn-danger , .page-item.active{
+  background-color: transparent;
+  border-color: #fff; 
+}
+.page-link{
+  border-color: #B32744; 
+}
+/*.page-item.active .page-link{
+  background-color: transparent;
+}*/
+.sidebar{
+	padding-top: 1rem !important;
+	background: #fff;
+}
+/*.card-primary:not(.card-outline) .card-header {
+    background-color: #E3EBEC !important;
+    border-bottom: 0;
+}*/
+/* Important*/
+
+.content-wrapper{
+	background: #fff !important;
+  padding-top: 3rem;
+}
+/* Important*/
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active{
+	color: #fff;
+}
+.nav-sidebar .nav-item>.nav-link{
+  background: linear-gradient(to right,#fff,#fff,#fff) !important;
+	color: #000;
+}
+.main-sidebar .brand-text, .sidebar .nav-link p, .sidebar .user-panel .info{
+	color:#000 ;
+}
+.fa-book:before , .fa-table:before, .fa-pie-chart:before, .fa-circle-o:before{
+	color: #000;
+}
+.fatmonk-image{
+	padding-top:8rem;
+	margin:	0.2rem; 
+  background:#fff;
+
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active{
+	background: #B32744;
+}
+.main-header, .main-footer{
+	background: #fff !important;
+}
+.logo2{
+	width: 8rem;
+}
+.sidebar-dark-primary{
+	background:#fff !important;
+}
+.fa-edit:before{
+  color: #000;
+
+}
+
+
+
+.fa-trash-o, .fa-pencil-square-o:before{
+	color: #000;
+}
+
+.nav-img{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.card{
+border: 1px solid #FFFFFF;
+top:5%;
+/* box-shadow: 8px 19px 42px 11px rgba(0, 0, 0, 0.25); */
+backdrop-filter: blur(41px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 35px;
+}
+.card-1{
+  border: 1px solid #FFFFFF;
+  top:5%;
+  width: 35%;
+
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 35px;
+  }
